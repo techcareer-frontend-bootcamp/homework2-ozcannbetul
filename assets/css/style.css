@@ -1,0 +1,96 @@
+/*============================== GOOGLE FONTS ==============================*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+/*=============== Varibles ===============*/
+:root {
+  /********** Colors **********/
+  --first-color: #ffb3b2;
+  --white-color: #fff;
+  --dark-color: #121212;
+  --white-color-text: #fff8f8;
+
+  /********** Fonts **********/
+  --body-font: "Poppins", sans-serif;
+
+  --bigger-font-size: 2.25rem;
+  --big-font-size: 1.5rem;
+  --normal-font-size: 0.813rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --bigger-font-size: 4.5rem;
+    --big-font-size: 1.75rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/* Base Css */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Navbar - Menu */
+
+
+
+/* Content */
+
+  
+
+/* Social Media */
+
+.social-media {
+  position: fixed;
+  right: 3%;
+  bottom: 0;
+  background-color: var(--first-color);
+  padding: 0.75rem 1.5rem 0.35rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+  
+/* Responsive */
+@media screen and (min-width: 768px) {
+
+}
