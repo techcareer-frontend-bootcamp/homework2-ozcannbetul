@@ -11,39 +11,40 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
-        <nav >
-            <div class="logo">  
+    <header id="header">
+        <nav class="logo">
+         
              <a class="a_logo" href="#">Logo<span>Area</span></a>  
-            </div> 
-            <div class="menu">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Top5">Top5</a></li>
-                <li><a href="#Library">Library</a></li>
-                <li><a href="#Connect">Connect</a></li>
+            
+            <div class="menu" id="menun">
+            <ul class="list">
+                <li class="li_item"><a href="#home" class="a_link active">Home</a></li>
+                <li class="li_item"><a href="#About" class="a_link">About</a></li>
+                <li class="li_item"><a href="#Top5" class="a_link">Top5</a></li>
+                <li class="li_item"><a href="#Library" class="a_link">Library</a></li>
+                <li class="li_item"><a href="#Connect" class="a_link">Connect</a></li>
             </ul>
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i> 
             </div>
         </nav>
     </header>
 
     <!-- MAIN CONTENT -->
     <main>
-        
-        <div class="container" >
+        <!-- HOME --> 
+        <section class="container">
             <div class="left"  >
                 <P><h1>NEVER<BR> STOP<BR>LISTENING</h1></P>
-     
             </div> 
             <div class="right" >
-                <P class="right-1">Click here to listen.
-                <i class='bx bx-play-circle'></i>
-                </P>
+                <div class="right-text">Click here to listen.</div>
+                <a href="#" class="play-icon"><i class='bx bx-play-circle' id="song-icon"></i></a>
             </div> 
-        </div>
+        </section>
     </main>
-<!-- HOME --> 
+
     
     <div class="social-media">
         <a href="#" target="_blank" rel="noopener noreferrer">
@@ -56,6 +57,10 @@
             <i class='bx bxl-twitter' ></i>
         </a>
     </div>
+
+    <audio id="mySong">
+        <source src="assets/media/song.mp3" type="audio/mp3">
+    </audio>
 
     <!-- MAIN JS;-->
     <script src="assets/js/main.js"></script>
